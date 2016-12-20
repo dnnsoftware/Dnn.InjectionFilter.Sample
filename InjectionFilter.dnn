@@ -1,0 +1,28 @@
+﻿<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="InjectionFilter.Sample" type="Library" version="01.00.00" isSystem="false">
+      <friendlyName>Sample Module Injection Filter</friendlyName>
+      <description>This is a sample module injection filter that will hide a module just by adding a tag named "hide" to the module on the module settings page.</description>
+      <dependencies/>
+      <owner>
+        <name>Joe Brinkman</name>
+        <organization>DNN Corp.</organization>
+        <url>http://www.dnnsoftware.com</url>
+        <email>support@dnnsoftware.com</email>
+      </owner>
+      <license />
+      <releaseNotes />
+      <components>
+        <component type="Assembly">
+          <assemblies>
+            <assembly>
+              <path>bin</path>
+              <name>Dnn.InjectionFilter.Sample.dll</name>
+              <version>1.0.0</version>
+            </assembly>
+          </assemblies>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>
